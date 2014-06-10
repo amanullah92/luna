@@ -1,6 +1,14 @@
 package com.hogwarts;
 
 public class Student {
+	private String gitGat;
+	
+	public String getGitGat() {
+		return name;
+	}
+	public void setGitGat(String name) {
+		this.name = name;
+	}
 	private String name;
 	private int age;
 	public String getName() {
